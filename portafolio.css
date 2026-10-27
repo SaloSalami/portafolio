@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(153, 152, 208);
+font-family: 'Courier New', Courier, monospace , times , georgia;
+
+}
+
+.cuadrotitulo {
+  
+ 
+    border-radius: 30px;
+    background-color: rgb(54, 167, 224);
+    padding: 20px;
+}
+.princtitle h1 {
+
+    text-align: center;
+   font-family: 'times', Courier, monospace;
+   color: rgb(20, 20, 175)
+}
+h1 strong{
+    text-decoration: underline;
+    color: rgb(128, 16, 16);}
+
+
+p {font-size: large;
+font-style: italic;
+}
+
+.navegacion {
+    background-color: rgb(54, 167, 224);
+   padding: 15px 30px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px; 
+    border-style:dashed ;
+}
+    
+.navegacion a {
+color: rgba(213, 109, 109, 0.715);
+
+align-items: center;
+justify-items: center;
+text-decoration: none;
+
+}
+
+.navegacion a:hover{
+    
+    color: rgb(15, 193, 253);
+}
+.navbar {
+    display:flex;
+    padding-left: 12px;
+
+}
+
+.navbar button {
+    padding: 10px;
+    background-color: rgb(42, 40, 40);
+    border: none; border-radius: 16px; 
+margin: 12px;
+}
