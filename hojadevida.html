@@ -1,9 +1,61 @@
 ---
 layout: default
-title: Hoja de Vida
+title: Hoja de Vida - Salome Gonzalez
+css: css/hdv.css
 ---
 
-<section class="cv-section">
-  <h2>Hoja de Vida</h2>
-  <p>Mi experiencia laboral, educación y habilidades profesionales...</p>
-</section>
+<header class="principalinfo">
+    <h1>Salome Gonzalez Alvarez</h1>
+    <img src="img/imagenUsr.jpg" alt="Salome Gonzalez Alvarez" style="border-radius: 50%;" width="270" height="270">
+    <p>Soy <strong>coder</strong> de desarrollo de software en formación</p>
+</header>
+
+<div class="contenido">
+    <div class="habilidades">
+        <h2>Sobre mi</h2>
+        <p>Mi autismometro tiene especiales fijaciones en los problemas logicos</p>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Estructura de paginas con HTML</li>
+            <li>memorizar datos curiosos inservibles</li>
+            <li>alguito de css suficiente para impresionar a mi mami</li>
+        </ul>
+    </div>
+
+    <div class="rutaprendizaje">
+        <h2>Mi ruta de aprendizaje</h2>
+        <ol>
+            <li>HTML Y CSS</li>
+            <li>JavaScript</li>
+            <li>Backend y bases de datos</li>
+        </ol>
+    </div>
+
+    <div class="horario">
+        <h2>Mi horario de estudio</h2>
+        
+        <table class="tabla" border="1">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Tema</th>
+                    <th>Horas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>lunes</td><td>HTML</td><td>2 horas</td></tr>
+                <tr><td>miercoles</td><td>CSS</td><td>2 horas</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Contacto</h2>
+    <p>
+        <a href="https://github.com/SaloSalami">GitHub</a> <br>
+        <a href="mailto:alvarezsalome30@gmail.com">Correo Electrónico</a>
+    </p>
+
+    
+    <a href="{{ '/' | relative_url }}">Volver al portafolio</a>
+</div>
