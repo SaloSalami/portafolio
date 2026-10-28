@@ -1,29 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rueda Libre</title>
-    <link rel="stylesheet" href="css/ruedalibre.css">
-</head>
-<body>
-       <header class="ruedalibreBanner">
-        <img src="img/banner.jpg" alt="Bicicletas y tours" >
-    </header>
+---
+layout: default
+title: Rueda Libre
+---
 
-    <h1>Rueda Libre</h1>
-    <h2>Bienvenido a Rueda Libre!</h2>
-"
-    <nav class="menu">
+<section class="rueda-libre-hub">
+  <h1>Rueda Libre</h1>
+  <p>Bienvenido al proyecto de ciclismo y tours. Explora nuestras secciones:</p>
 
-        <ol>
-            <li><a href="aboutus.html">Quienes Somos</a></li> <br>
-            <li><a href="Tours.html">Tours</a></li> <br>
-            <li><a href="Zonarent.html">Zona de Renta</a></li> <br>
-        </ol>
-            
-    </nav>
+  <!-- Submenú interno exclusivo de Rueda Libre -->
+  <nav class="subnav-ruedalibre" style="margin: 20px 0; padding: 10px; background: #f4f4f4;">
+    <ul style="list-style: none; display: flex; gap: 15px; padding: 0;">
+      <li><a href="{{ '/aboutus.html' | relative_url }}">Sobre Nosotros</a></li>
+      <li><a href="{{ '/Tours.html' | relative_url }}">Tours</a></li>
+      <li><a href="{{ '/Zonarent.html' | relative_url }}">Zona Rent</a></li>
+    </ul>
+  </nav>
 
- 
-</body>
-</html>
+  <div class="rueda-libre-content">
+    <!-- Contenido principal de la página de Rueda Libre -->
+  </div>
+</section>
