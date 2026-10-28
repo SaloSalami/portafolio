@@ -7,40 +7,20 @@ body {
 
 .marqconferencistas{
     background-color: #000000;
-    color:rgb(214, 20, 20);
+    color: rgb(214, 20, 20);
     padding: 8px 0;
     font-size: 0.9rem;
     margin-bottom: 25px;
 }
 
 .contenedor-principal{
-    background-color: #f7f7f8; /* Fondo blanco/gris claro de la tarjeta principal */
-  border-top: 4px solid #e62135; /* Borde rojo característico superior */
-  border-radius: 8px;
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 35px 40px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-
-}
-
-.encabezado{ 
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 35px;
-}
-
-.icono-usuario{
-    background-color:#e62135;
-    color: white;
-    width: 36px;
-    height: 36px;
+    background-color: #f7f7f8;
+    border-top: 4px solid #e62135;
     border-radius: 8px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 35px 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .encabezado {
@@ -49,9 +29,20 @@ body {
     gap: 12px;
     margin-bottom: 35px;
 }
-   
 
-.encabezado h2{
+.icono-usuario{
+    background-color: #e62135;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.encabezado h2 {
     font-size: 1.8rem;
     color: #555;
     margin: 0;
