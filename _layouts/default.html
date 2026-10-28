@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Portafolio" }}</title>
+  
+  <!-- Estilos globales del sitio -->
+  <link rel="stylesheet" href="{{ '/portafolio.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/conferencistas.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Navegación global -->
+  <header class="site-header">
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/aboutus.html' | relative_url }}">Sobre Nosotros</a></li>
+        <li><a href="{{ '/Tours.html' | relative_url }}">Tours</a></li>
+        <li><a href="{{ '/ruedalibre.html' | relative_url }}">Rueda Libre</a></li>
+        <li><a href="{{ '/Zonarent.html' | relative_url }}">Zona Rent</a></li>
+        <li><a href="{{ '/conferencistas.html' | relative_url }}">Conferencistas</a></li>
+        <li><a href="{{ '/hojadevida.html' | relative_url }}">Hoja de Vida</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Aquí se inyecta el contenido de cada página -->
+  <main class="main-container">
+    {{ content }}
+  </main>
+
+  <!-- Pie de página global -->
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} Portafolio. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
